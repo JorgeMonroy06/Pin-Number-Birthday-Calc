@@ -3,6 +3,7 @@ var text = fs.readFileSync("pi-million.txt").toString('utf-8');
 var text = text.split("");
 
 function isItInPi(n) {
+	
 	var m = n.toString().split("");
 	
 	for(var i = 0; i < text.length; i++){
